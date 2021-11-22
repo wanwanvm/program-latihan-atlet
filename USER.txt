@@ -1,0 +1,11 @@
+*ASDEP
+-email : asdep@gmail.com
+-password : asdep123!
+
+*PELATIH
+-email : zakaria@gmail.com
+-password: zakaria123!
+
+*ATLET
+-email : murni@gmail.com
+-password : murni123!
