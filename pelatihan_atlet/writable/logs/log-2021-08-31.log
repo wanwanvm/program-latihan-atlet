@@ -1,0 +1,23 @@
+CRITICAL - 2021-08-31 08:00:23 --> Call to a member function getResult() on array
+#0 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#3 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\app\Controllers\Pelatih.php(39): view('pages/dashboard...', Array)
+#4 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Pelatih->create()
+#5 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelatih))
+#6 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lanas\\...')
+#9 {main}
+CRITICAL - 2021-08-31 08:11:01 --> Undefined array key "id_atlet"
+#0 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\app\Views\pages\dashboard\program-latihan.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\lanas\\...', 62)
+#1 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\lanas\\...')
+#2 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#4 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\app\Controllers\ProgramLatihan.php(46): view('pages/dashboard...', Array)
+#5 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\ProgramLatihan->index()
+#6 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProgramLatihan))
+#7 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lanas\OneDrive\Documents\Skripsi\jasa\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\lanas\\...')
+#10 {main}

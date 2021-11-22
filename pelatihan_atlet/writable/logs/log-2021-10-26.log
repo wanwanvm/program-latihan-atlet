@@ -1,0 +1,16 @@
+ERROR - 2021-10-26 04:18:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-10-26 04:18:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\app\Controllers\Auth\Login.php(26): CodeIgniter\BaseModel->first()
+#5 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\Login->submit()
+#6 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+#7 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\wanwa\OneDrive\Desktop\galuh\program\pelatihan_atlet\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\wanwa\\...')
+#10 {main}
